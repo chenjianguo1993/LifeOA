@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+BODY {
+	PADDING-RIGHT:0px;
+	PADDING-LEFT:0px;
+	FONT-SIZE:12px;
+	PADDING-BOTTOM:0px;
+	MARGIN:0px;
+	WIDTH:100%;
+	COLOR:#687175;
+	LINE-HEIGHT:1.6em;
+	PADDING-TOP:0px;
+	FONT-FAMILY:'Segoe UI',Arial,verdana,Tahoma,Helvetica,sans-serif;
+	HEIGHT:100%
+}
+A:link {
+	COLOR:#85aa10;
+	TEXT-DECORATION:none
+}
+A:hover {
+	COLOR:#3e4e57;
+	TEXT-DECORATION:underline
+}
+A {}

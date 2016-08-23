@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 空间名+action名.action就是访问的URL -->
+	<package namespace="/common" name="common" extends="struts-default">
+
+		<global-results>
+			<result name="error">/commons/error.jsp</result>
+		</global-results>
+		<!-- 首页 -->
+		<action name="index_*"
+			class="com.oa.common.web.action.IndexUIAction" method="{1}">
+			<result name="toindex">/index.jsp</result>
+		</action>
+		
+		<!-- 登陆和注册 -->
+		<action name="loginAndReg_*"
+			class="com.oa.common.web.action.LoginAndRegisterAction" method="{1}">
+			<result name="toLogin">/public/login.jsp</result>
+			<!-- 登陆或者注册成功，转发到首页 -->
+			<result name="success">/public/login.jsp</result>
+		</action>
+	</package>
+	
+	
+</struts>

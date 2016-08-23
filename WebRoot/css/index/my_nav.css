@@ -1,0 +1,53 @@
+/**用户未登录时**/
+#none_login{
+	margin-top: 30px;
+	margin-left: 200px;
+}
+#login{
+	float:left;
+	height:53px;
+}
+#register{
+	float:left;
+	margin-left:10px;
+	height:53px;
+}
+.none_login_a{
+	font-size: 18px;
+	font-weight: bold;
+}
+/**用户登录之后**/
+#have_login{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+#headimage{
+	float:left;
+	width:50px;
+	height:53px;
+}
+#user_headimage{
+	width:40px;
+	height:40px;
+	float:left;
+}
+/***
+#username{
+	float:left;
+	height:50px;
+	width:70px;
+	margin-top:20px;
+}**/
+#personal_center{
+	float:left;
+	margin-left:5dp;
+	height:50px;
+	margin-top:20px;
+	width:100px;
+}
+.have_login_a{
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
